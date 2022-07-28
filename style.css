@@ -1,0 +1,94 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 10px;
+}
+
+#navbarMonstera{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbarMonstera #navMid{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarMonstera #navMid .active
+{
+    text-decoration: underline;
+}
+
+#navbarMonstera #navMid div{
+    margin: 10px 30px;
+}
+
+#navbarMonstera #navEnd{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarMonstera #navEnd div img{
+    margin-right: 30px;
+}
+
+#navbarMonstera #navEnd div{
+    margin: 5px 10px;
+}
+
+#midWhole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#midWhole #midWholePart1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#midWhole #midWholePart1 #midWholePart11{
+    margin-top: 90px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+#midWhole #midWholePart1 #midWholePart11 #monstera{
+    font-size: 90px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#midWhole #midWholePart1 #midWholePart12{
+    background: gold;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+#midWhole #midWholePart1 #midWholePart12 #midWholePart121 div h1{
+    display: inline;
+    /* margin-right: 5px; */
+}
+
+#midWhole #midWholePart1 #midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+}
